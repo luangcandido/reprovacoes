@@ -1,0 +1,559 @@
+---
+title: "Proposta contra as Reprovações em Massa"
+author: "Luan G. Cândido"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## O problema e suas consequências: as reprovações em massa na UFF.
+
+
+Boa parte dos cursos de graduação possuem casos de disciplinas que alcançam de forma sistemática índices especialmente altos de reprovação. Sob um primeiro olhar, o leitor poderia pensar que este é um problema exclusivamente dos estudantes reprovados. Um pequeno preço a se pagar diante da necessidade de averiguar a qualidade e o status social do diploma de egresso da UFF. Entretanto, como veremos ao longo deste trabalho, o fenômeno das reprovações em massa ocorre em grande magnitude e sua ocorrência implica em consequências negativas para toda a Universidade.
+
+
+Uma primeira consequência negativa de altos índices de reprovação em disciplinas é justamente a reprovação de um número altíssimo de estudantes, que por sua vez determina o atraso de suas carreiras acadêmica na graduação e, consequentemente, a ampliação dos seus gastos com a própria educação. Despesas com transportes, alimentação, xérox, além das horas de estudo, são exemplos de recursos que de alguma forma são "desperdiçados" na medida em que o discente não tem sucesso e estagna na sua trajetória acadêmica. Boa parte destes estudantes, cabe destacar, são de origem popular e sentem de forma bastante incisiva estes impactos financeiros.  
+
+
+Mas o atraso na formação dos discentes não tem apenas consequências privadas: tem
+impacto em toda UFF. E um impacto bastante fundamental, na sua matriz de
+financiamento. Recordemos brevemente: desconsiderando as despesas com pessoal
+(servidores e professores, pagos diretamente pelo Governo Federal), a maior parcela
+da verba recebida pela UFF diz respeito ao Orçamento de Custeio e Capital (OCC). É
+deste orçamento que vem receita para o pagamento de terceirizados, de insumos como
+papel higiênico e alimentos, para a assistência estudantil e diversos outros gastos. A partir da chamada "matriz OCC", o Ministério da Educação (MEC) repassa um
+determinado montante de dinheiro (atualmente na ordem de R$2.000,00) para cada
+"aluno-equivalente" da Universidade. E o número de alunos-equivalentes é um
+indicador cuja fórmula é calculada com base em um resultado central: o número de
+formados em cada ano. Ou seja, quanto mais formados em cada ano, mais alunosequivalentes
+e mais verba repassada para a Instituição. Isso tudo pode ser visto com
+mais detalhe no [site da UFF](http://www.uff.br/?q=alunos-equivalentes-de-graduacao).
+
+
+E como as reprovações em massa afetam o número de formados? Isso acontece em duas
+etapas: primeiro, através do atraso da formatura do estudante. Vejamos um exemplo:
+considerem uma estudante de engenharia que ingressou em 2013. Dado um tempo
+esperado de conclusão de 5 anos, ela deveria formar-se em 2018. Em 2019, sua
+formatura seria considerada nos cálculos dos alunos-equivalentes da UFF e dos repasses para o OCC, o que teria como impacto o recebimento de uma determinada verba do MEC. Contudo, ela teve sua formatura atrasada em 1 ano, por exemplo. Isso significa que sua conclusão acontecerá somente em 2019, gerando uma receita apenas em 2020. O atraso de 1 ano gera um retardamento também de 1 ano na entrada da verba. Atrasos de 2 anos implicam em um retardamento de 2 anos e assim sucessivamente. 
+
+
+Contudo, sob uma perspectiva global, o atraso nas formaturas faz muito mais do que retardar a entrada de verbas: ele diminui a quantidade de dinheiro repassada. Isso porque o desempenho acadêmico tem altíssimo impacto na permanência dos estudantes. Quanto mais reprovações, mais fraco o elo que conecta o estudante à universidade. Mais difícil parece ser a tarefa de se formar e mais pesado no bolso são os gastos para se manter indo às aulas. Menor o C.R. e as chances de conseguir uma bolsa. Mais plausível a mudança de curso, de Universidade ou o abandono da educação superior para se dedicar exclusivamente ao trabalho. Esta é uma obviedade na perspectica estudantil, mas também pode ser observada nos principais referenciais da literatura sobre evasão universitária. Para citarmos um, talvez o principal trabalho nacional sobre evasão universitária: em "Diplomação, Retenção e Evasão nos Cursos de Graduação em Instituições de Ensino Superior Públicas", publicado em 1996 por uma Comissão Especial do MEC, as reprovações são mencionadas como um dos fatores que determinam a evasão. 
+
+
+Apesar da relevância dessas consequências negativas, em geral, não há uma intervenção sistemática sobre as reprovações em massa. Em parte, acreditamos que isso se deve ao fato de que se trata de um assunto extremamente complexo, com muitas situações específicas. Antes de seguirmos, é importante reconhecer, a reprovação tem um importante papel na formação pedagógica do estudante e na garantia da qualidade daqueles que na UFF se formam. Definitivamente não queremos corroborar com noções como as de "aprovações automáticas" ou outras formas de facilitação espúria do sucesso nas disciplinas. Tampouco pretendemos fazer juizo de valor sobre a questão das reprovações: se ela é justa ou não, qual o seu motivo de ser, etc. Cada departamento, disciplina e semestre tem suas particularidades e não podemos fazer muitas afirmações de antemão. A investigação das causas de cada circunstância exige um esforço particular, não compatível com o que se propõe este trabalho.
+
+
+Contudo, dada a magnitude da questão e os seus desdobramentos, especialmente graves no momento conjuntural vivido pelo país e pelas Universidades Federais, essas ressalvas não podem servir de obstáculos para uma intervenção que é urgente. Diante dessas dificuldades, ao contrário, a questão que devemos nos fazer é: considerada a necessidade de intervir, como podemos fazê-lo de forma mais científica e eficiente possível? É justamente isso que pretendemos neste trabalho. 
+
+A nível de ilustração, considere que, como consta no [site da UFF](http://www.uff.br/node/11895), a formatura de uma estudante de engenharia implica em 8,3 novos alunos-equivalentes para a UFF. Isso significa que uma política que aumente em 100 o número de engenheiros formados em um ano na UFF implica em um acrescimo de 1,66 milhão (100 x 8,3 x 2.000) no orçamento de custeio e capital do ano seguinte. Se estes alunos forem de cursos noturnos, o acréscimo é ainda maior: 1,9 milhão (100 x 8,3 x 2.000 x 1,15). Este cálculo depende do curso e de vários outro fatores, de forma que uma quantificação exata para toda a UFF exigiria um trabalho à parte. Mas a questão principal, neste momento, é: tem cabimento a UFF não combater as reprovações em massa, considerando que elas trazem um impacto tão significativo?
+
+
+Em vias de sugerir um encaminhamento para esta questão, este documento está organizado da seguinte forma: após esta seção, segue uma parte metodológica que trata, centralmente, sobre o processo de elaboração dos dados que serão apresentados; em seguida, apresentaremos um panorama das reprovações na UFF, que cumpre a função de justificar as opções metodológicas descritas na sessão anterior; depois, apresentaremos as 50 matérias que tiveram os piores resultados em termos de reprovações no intervalo entre 2017.1 e 2018.2, as quais pretendemos que seja o foco da intervenção proposta; e por fim, encerramos com a sugestão de alguns encaminhamentos para a temática. Àqueles que não se interessarem sobre o processo de produção das estatísticas deste trabaho, convém ir direto para a apresentação dos piores resultados e para a proposta em si.
+
+## Metodologia: quais matérias mais reprovam na UFF?
+
+
+Nosso objetivo primeiro, no sentido de formular uma proposta de intervenção, foi responder as seguintes perguntas: qual é a realidade das reprovações na UFF hoje e quais matérias tem os piores resultados? Afinal, diante da escassez de recursos (da universidade e do movimento estudantil), aquelas disciplinas que apresentam os piores desempenhos e geram as piores consequências são aquelas que merecem atenção mais urgentemente.
+
+
+A reprovação, todavia, pode ser mensurada sob duas óticas: em números absolutos, ou seja, quantificando o número de estudantes reprovados em cada disciplina; ou em termos proporcionais, enquanto percentual de matriculados de uma matéria que reprovou. A primeira perspectiva dá origem ao que chamaremos "Número de Reprovações"" (N.R., ou apenas "reprovações""); enquanto a segunda origina a"Taxa de Reprovação"(T.R.). 
+
+
+Diante destas perspectivas, nossa opção metodológica foi utilizar ambos os indicadores na análise, dando ligeira prioridade ao número absoluto de reprovações. Isso porque existe um grande número de disciplinas com altíssimas taxas de reprovação e baixo número de reprovados, assim como algumas em que o número de reprovados é elevado mas a taxa de reprovação é mediana. Portanto, o uso de apenas uma destas óticas empobreceria a análise, nos afastando do objetivo central de identificar os 50 piores resultados entre 17.1 e 18.2.
+
+
+No sentido de classificá-los, diante de um panorama geral das reprovações na UFF, seguimos as seguintes etapas:
+
+
+1. Coletamos do [Sistema de Transparência da UFF](https://app.uff.br/transparencia) as tabelas relativas às "disciplinas que mais reprovam por curso" e ao "relatório de vagas" dos departamentos referentes aos 4 períodos do biênio 2017.1-2018.2. Elas são a base sobre as quais todas as outras estatísticas serão produzidas. A primeira contém, para cada curso de graduação e semestre selecionado, as disciplinas que mais reprovaram e o respectivo número de reprovados de cada uma delas; a segunda, por sua vez, contém o número de vagas oferecidas e utilizadas, por um determinado departamento em um determinado semestre, em cada matéria e para cada curso (uma mesma disciplina oferta vagas para vários cursos de graduação diferentes). 
+
+
+1.1 No caso de alguns cursos, o número de "disciplinas que mais reprovam" era superior a 30, de forma que os resultados apareciam em páginas. Neste caso, coletamos apenas as informações referentes a página 1. Ou seja, para cada curso, registramos as 30 (ou menos) matérias que mais reprovaram em um determinado semestre. Esta opção, de certo, enviesa nossa amostragem, escondendo disciplinas de departamentos maiores que não estão entre as 30 que mais reprovaram. De todo modo, este foi um imperativo diante das condições do autor em termos de tempo e conhecimento técnico sobre web scrapping.
+
+
+2. Agregamos os dados destas tabelas de forma que as informações fossem divididas apenas por disciplina e por semestre, não por curso. Uma mesma matéria tem reprovados de e vagas oferecidas para vários cursos diferentes, o que consiste em uma informação relevante mas secundária para nossa análise central. Eventualmente, será usada para identificar os principais cursos afetados pelos piores resultados. Além disso, nesta etapa mantivemos em ambas tabelas apenas as disciplinas presenciais.
+
+
+3. Unimos as tabelas horizontalmente, por semestre e disciplina, e acrescentamos uma nova coluna com a Taxa de Reprovação. Esta é calculada como a divisão entre os reprovados de uma disciplina e as vagas utilizadas por ela (em cada semestre). Com isso, chegamos à tabela de reprovações e vagas geral, utilizadas para o panorama das reprovações sob uma ótica macro. Nesta tabela ainda estão disponíveis os dados de vagas ofertadas por disciplina e seu respectivo "aproveitamento" (entendido como relação entre a quantidade de vagas utilizadas e ofertadas por uma disciplina, sendo um indicador da demanda discente por uma matéria).
+
+
+4. Por fim, para classificar as 50 matérias que mais reprovaram na UFF entre 17.1 e 18.2, realizamos quatro filtragens: 
+
+
+4.1 Em primeiro lugar, mantivemos apenas aquelas disciplinas que reprovaram 50% ou mais dos seus estudantes. Como mostraremos a frente, escolhemos este valor porque ele filtra mais de 90% das disciplinas, mantendo apenas os piores resultados. Dessa forma, pretendemos selecionar aqueles resultados que são, sob uma visão estatística, graves em termos da Taxa de Reprovação.
+
+
+4.2 Em seguida, uma segunda filtragem que manteve apenas as matérias que reprovaram ao menos 10 estudantes por semestre. Neste caso, a interpretação
+é de que, a despeito de uma taxa de reprovação alta, uma matéria que reprova muito pouco tem impactos proporcionalmente pequenos na universidade e, portanto, não deve estar no nosso grupo focal para intervenção. Assim, foram mantidas apenas as disciplinas que tinham taxa de reprovação maior que 50% e número de reprovados maior que 10.
+
+
+4.3 Depois, fizemos uma terceira filtragem onde foram mantidas apenas as discipinas que se encaixaram nos critérios de 4.1 e 4.2 por pelo menos 2 períodos no intervalo 2017.1 e 2018.2. Ou seja, as piores disciplinas tem T.R > 50% e Reprovados > 10 em pelo menos 2 dos 4 semestres observados. Isso foi feito porque o que procuramos são aquelas matérias que apresentam os piores resultados de forma sistemática ao longo do tempo. Matérias que não tenham altas reprovações por questões pontuais (professor de um determinado semestre, por exemplo), mas que sejam estruturalmente problemáticas. 
+
+
+4.4 Ultrapassadas as três filtragens, chegamos a um primeiro conjunto dos "piores resultados", de 98 disciplinas. Selecionamos suas informações na base de dados anterior às filtragens, para que a tabela final contenha seus desempenhos nos 4 semestres analisados, não apenas naqueles em que seu desempenho se encaixou nos critérios 4.1 e 4.2. 
+
+
+4.5 Finalmente, para hierarquizar essa tabela final e chegar aos 50 piores resultados, optamos pelo número de reprovações como critério de rankeamento. O fizemos devido às consequências que cada disciplina tem pra universidade: uma matéria que reprova 55% de 2500 estudante é certamente mais grave que uma que reprova 75% de 100, sob uma ótica da Instituição. Assim, a tabela final é apresentada em ordem decrescente, com base no total de reprovações e incluindo os 50 piores resultados dentre os 98 selecionados anteriormente. 
+
+
+Antes de seguir, a nível de esclarecimento, cabe mencionar que o que chamamos por "reprovações em massa" neste trabalho são os casos em que a Taxa de Reprovação é maior que 50%.
+
+
+Os cálculos, assim como este relatório e todos procedimentos nele incluidos, foram feitos no software R e os códigos produzidos serão integralmente disponibilizado no [github](https://github.com/luangcandido).
+
+
+## Um panorama das reprovações.
+
+
+Como mencionado anteriormente, as reprovações em massa não ocorrem de forma pontual. Alcançam um número expressivo: 152 disciplinas em 2017.1; 86 em 2017.2; 137 em 2018.1; e 137 em 2018.2. Mesmo assim, são proporcionalmente pouquíssimo expressivas. Sua participação percentual frente ao total de disciplinas consideradas na amostragem durante os 4 semestres analisados foram de, respectivamente: 7,7%; 4%; 6,4%; e 6,5%. Essas informações são apresentadas na Tabela 1, acrescidas do número total de disciplinas em cada período.
+
+```{r Tabela 1, results="asis", echo=FALSE, message=FALSE}
+load(file="Tabela1.RData")
+print(
+  knitr::kable(Tabela1)) 
+
+```
+
+
+Para ter uma visão mais clara sobre o desempenho das reprovações na UFF e sobre o porquê da escolha das taxas de reprovação superiores a 50% como "absurdas", podemos observar qual é o número de disciplinas que esteve em cada intervalo de 10% na taxa de reprovação, ou seja: quantas matérias reprovaram entre 0 e 10% da turma, quantas reprovaram entre 10% e 20% e assim sucessivamente. Essa informação é oferecida no Gráfico 1, logo abaixo. Nele, destaca-se a informação de que que a enorme maioria das materias da UFF reprova entre 0 e 20% dos seus inscritos. 
+
+```{r Gráfico 1, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+library(dplyr)
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+UFF_VAGASXREPROVAÇÕES2 <- UFF_VAGASXREPROVAÇÕES %>% 
+mutate("RM" = case_when(Taxa_Reprovação <= 0.5 ~ "NRM",
+                        Taxa_Reprovação > 0.5 ~ "RM"))
+library(ggrepel)
+library(ggplot2)
+g1 <- ggplot(data = UFF_VAGASXREPROVAÇÕES2, mapping = aes(x = Taxa_Reprovação))
+g1 + geom_histogram(binwidth = 0.1, boundary = 0.1, mapping = aes(fill = RM)) + 
+  scale_x_continuous(breaks = seq(from = 0, to = 1, by = 0.1), labels = scales::percent, limits = c(0,1)) +
+  scale_y_continuous(breaks = seq(from = 0, to = 600, by = 300)) +
+  scale_fill_brewer(palette = "Set2") +
+  facet_wrap(. ~ Semestre, ncol = 1) +
+  stat_bin(binwidth = 0.1, boundary = 0.1, geom = "label_repel", aes(label = ..count..), vjust = 1, hjust = 0.5) +
+  theme_classic() +
+  theme(legend.position = "none") +
+  labs(title = "Número de Disciplinas por intervalo da Taxa de Reprovação",
+       subtitle = "Cada barra contabiliza o número de matérias em\ncada intervalo de 10% na taxa de reprovação",
+       x = "Taxa de Reprovação", y = "Número de disciplinas",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+
+Há diversas outras informações sobre o comportamento das disciplinas em relação à Taxa de Reprovação que não podem ser observadas através de um gráfico de barras. Nesse sentido, abaixo, o Gráfico 2 consiste em um boxplot da taxa de reprovação das disciplinas em cada semestre. Neste caso, destacamos algumas informações: em todos semestres, 50% das disciplinas reprovaram entre 10 e 30% (largura da caixa); e o valor
+da mediana da taxa de reprovação não ultrapassou 20% em nenhum dos semestres (risco dentro da caixa). Isso reflete a grande participação percentual das disciplinas com T.R. entre 0 e 20%, como visto no gráfico anterior. No mais, o próprio boxplot tem uma forma de classificar "outliers" (pontos "fora da curva"" estatisticamente, que não seguem o padrão de distribuição do conjunto como um todo). Nós consideramos as taxas de reprovação acima de 50% como absurdas estatisticamente, enquanto o boxplot utiliza como "valor limite", a partir do qual se considera uma disciplina um outlier, valores da taxa de reprovação que variam entre 50 e 60%. Ou seja, há coerência entre os valores utilizados como limite. No gráfico, os pontos acima das linhas são as matérias consideradas outliers.
+
+```{r Gráfico 2, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 4, fig.width = 6}
+library(dplyr)
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+library(ggrepel)
+library(ggplot2)
+g1 <- ggplot(data = UFF_VAGASXREPROVAÇÕES, mapping = aes(x = as.factor(Semestre), y = Taxa_Reprovação))
+g1 + geom_boxplot(fill = "#66c2a5", alpha = 0.7) + 
+  scale_y_continuous(breaks = seq(from = 0, to = 1, by = 0.1)) +
+  theme_classic() +
+  geom_hline(yintercept = 0.5, linetype = 2) +
+  labs(title = "Distribuição das disciplinas por Taxa de Reprovação.",
+       subtitle = "Por semestre.",
+       x = "Semestre", y = "Taxa de Reprovação",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+
+Ou seja, podemos observar que, estatisticamente, casos de reprovações com T.R > 50% são realmente exepcionais (frente a UFF como um todo). Com esta etapa da filtragem, o objetivo foi selecionar aqueles casos mais graves. A etapa seguinte, contudo, tem uma pretensão diferente: desses casos selecionados, considerados graves, quais devem ser desconsiderados? E a opção foi por excluir disciplinas com menos de 10 reprovados por semestre. De fato, este é um número bastante pequeno. Mas jugamos este um valor adequado porque, em primeiro lugar, ele permite que a análise não fique restrita às disciplinas e departamentos maiores. Se optássemos por usar como critério um número de reprovações maiores que 100 por semestre, por exemplo, isso fatalmente aconteceria, escondendo casos importantes com altas taxas de reprovação. Todavia,
+mesmo assim ele filtra um número substantivo de matérias que, pelo pequeno número de reprovados, poluiriam nosso processo de seleção dos piores resultados. O Gráfico 3, abaixo, mostra a relação entre a Taxa de Reprovação e o número de reprovados. Como dito, existe um número significativos de matérias por semestre com T.R > 50% e Reprovados < 10.  
+
+```{r Gráfico 3, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+library(dplyr)
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+UFF_VAGASXREPROVAÇÕES2 <- UFF_VAGASXREPROVAÇÕES %>% 
+mutate("RM" = case_when(Taxa_Reprovação <= 0.5 ~ "NRM",
+                        Taxa_Reprovação > 0.5 ~ "RM"))
+library(ggrepel)
+library(ggplot2)
+g1 <- ggplot(data = UFF_VAGASXREPROVAÇÕES2, mapping = aes(x = Reprovações, y = Taxa_Reprovação, colour = RM))
+g1 + geom_point(shape = 1, alpha = 0.7) + 
+  facet_wrap(. ~ Semestre, ncol = 1) +
+  scale_colour_brewer(palette = "Set2") +
+  geom_hline(yintercept = 0.5, linetype = 2) +
+  geom_vline(xintercept = 10, linetype = 2) +
+  theme_classic() +
+  theme(legend.position = "none") +
+  labs(title = "Relação entre Número de Reprovados e\nTaxa de Reprovação",
+       subtitle = "Cada ponto representa uma disciplina naquele semestre.",
+       x = "Nº de Reprovações", y = "Taxa de Reprovação",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+
+De todo modo, para que se perceba com detalhe a expressividade da filtragem relativa ao número de reprovados, o Gráfico 4 abaixo traz a contagem do número de disciplinas por intervalo no número de reprovados. Como pode-se ver, a enorme maioria das matérias se concentra, justamente, no intervalo de 0 a 10 reprovados. Foram: 1274 em 2017.1 (64,3% do total); 1540 em 2017.2 (72,4%); 1477 em 2018.1 (68,7%); e 1483 em 2018.2 (69,9%). 
+
+```{r Gráfico 4, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+UFF_VAGASXREPROVAÇÕES2 <- UFF_VAGASXREPROVAÇÕES %>% 
+  mutate("BIN" = case_when(Reprovações > 0 & Reprovações <= 10 ~ "0-10",
+                           Reprovações > 10 & Reprovações <= 20 ~ "10-20",
+                           Reprovações > 20 & Reprovações <= 30 ~ "20-30",
+                           Reprovações > 30 & Reprovações <= 40 ~ "30-40",
+                           Reprovações > 40 & Reprovações <= 50 ~ "40-50",
+                           Reprovações > 50 & Reprovações <= 60 ~ "50-60",
+                           Reprovações > 60 & Reprovações <= 70 ~ "60-70",
+                           Reprovações > 70 & Reprovações <= 80 ~ "70-80",
+                           Reprovações > 80 & Reprovações <= 90 ~ "80-90",
+                           Reprovações > 90 & Reprovações <= 100 ~ "90-100",
+                            Reprovações > 100 ~ "R > 100"))
+
+g1 <- ggplot(data = UFF_VAGASXREPROVAÇÕES2, mapping = aes(x = as.factor(BIN), label = ..count..))
+g1 + geom_bar(fill = "#66c2a5") + 
+  facet_wrap(. ~ Semestre, ncol = 1) +
+  theme_classic() +
+  geom_label_repel(stat="count", aes(label = ..count..)) +
+  labs(title = "Número de Disciplinas por intervalos das Reprovações",
+       subtitle = "Cada barra contabiliza o número de matérias em\ncadaintervalo do número de reprovados",
+       x = "Número de Reprovados", y = "Número de disciplinas",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+
+Muitas outras observações poderiam ser feitas com base nesta e em outras bases de dados disponíveis. É possível comparar o número e a taxa de reprovações com o número de vagas utilizadas por cada matéria (tamanho de cada discipina); com a demanda estudantil por cada matéria ("aproveitamento" da disciplina, relação entre vagas oferecidas e utilizadas); com os índices de evasão de cada graduação em específico; é possível quantificar exatamente o atraso médio que existe hoje na conclusão dos cursos; assim como o impacto financeiro que o combate às reprovações em massa poderia ter a partir da Matriz OCC. Mais ainda: todo este trabalho pode ser feito na perspectiva de um departamento exclusivo, de forma a identificarmos os piores desempenhos não em relação a UFF como um todo, mas em relação às outras matérias desse mesmo departamento. Enfim, as possibilidades são inúmeras. Feita esta pontuação, podemos seguir adiante para a observação das piores matérias em termos de reprovação da UFF.
+
+## As 50 matérias que mais reprovam na UFF
+
+
+Tendo o processo de identificação dos piores resultados em termos de reprovações sido explicado, podemos ir direto ao ponto. Vejamos primeiramente quem são e os resultados das 50 piores matérias agregado para o período 2017.1 a 2018.2. Na Tabela 2 abaixo, estão disponíveis os dados: código da disciplina; nome; número de
+reprovações; vagas utilizadas; taxa de reprovação acumulada; e a posição da disciplina no "ranking geral". Adiante, buscaremos interpretar estes resultados. 
+
+```{r Tabela 2, results="asis", echo=FALSE, message=FALSE}
+load(file="Tabela2.RData")
+print(
+  knitr::kable(Tabela2)) 
+
+```
+
+
+Destacamos, em primeiro lugar, o grupo das 4 disciplinas que mais reprovaram estudantes dentre as 50 selecionadas. São elas: "Cálculo I-A" (GMA00019), "Geometria Analítica e Cálculo Vetorial" (GGM00127), "Cálculo II-A" (GMA00021) e "Cálculo II-B" (GMA00021). Três matérias do Departamento de Matemática Aplicada (GMA, Niterói) e uma do Departamento de Geometria (GGM, Niterói). Quatro matérias basilares dos currículos da área de exatas e que, portanto, precisam ofertar uma grande quantidade de vagas e lidar com a deficiência em matemática trazida por boa parte dos ingressantes. Independente do motivo, o fato é que a Taxa de Reprovação é maior que 50% nos 4 casos e, principalmente, o número de reprovados nestas disciplinas é drasticamente maior do que o resultado das outras 46. Da primeira a quarta, foram,
+respectivamente, 2438, 1472, 1382 e 1257 reprovados no biênio 17.1-18.2. Como contraste, perceba que a quinta colocada, "Complementos de Matemática Aplicada" (GAN00144), tem "apenas" 537 reprovados. 
+
+
+Neste caso, precisamos fugir de uma armadilha: é claro que estas matérias ofertarem um número absolutamente grande de vagas implica em um elevado número de reprovados. Em termos proporcionais, os resultados dessas 4 "piores" matérias são semelhantes aos das outras 46: oscilam, em geral, entre 50 e 60% da taxa de reprovação. Todavia, isso não deve servir para atenuar a gravidade da situação. Primeiramente, lembremos que taxas de reprovação maiores que 50% são imensa minoria, absurdos frente à UFF como um todo. Além disso, sob a ótica da gestão de recursos da UFF, o fato de serem matérias com grande número de vagas utilizadas não diminui a gravidade do resultado, pelo contrário: as matérias maiores são justamente as que geram mais impacto no número total de reprovados e, portanto, no total de formaturas da Instituição. Sob esta ótica, uma taxa de reprovação de 50% em uma matéria de 2500 matriculados é necessariamente mais grave que uma T.R. de 75% em uma disciplina de 200 inscritos.
+
+
+Antes de seguir, é interessante adicionar uma informação sobre os 4 piores resultados: quem são os cursos mais prejudicados? Esta informação está presente no Gráfico 5, abaixo.
+
+```{r Gráfico 5, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+load(file="UFF_REPROVAÇÕES.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+QUATROPIORES <- UFF_REPROVAÇÕES %>% 
+  filter(Código_Disciplina %in% c("GMA00019", "GGM00127", "GMA00021", "GMA00022"))
+
+QUATROAGREGADO <- QUATROPIORES %>% 
+  group_by(Curso) %>% 
+  summarise("Reprovações" = sum(Reprovações)) %>% 
+  filter(Reprovações > 10) %>% 
+  arrange(desc(Reprovações))
+
+QUATROAGREGADO2 <- QUATROAGREGADO %>%  
+  mutate("Cursos" = case_when(Curso == "54estatistica" ~ "Estatística",
+                              Curso == "29quimicaindustrial" ~ "Química Industrial",
+                              Curso == "51engenhariadepetroleo" ~ "Engenharia de Petróleo",
+                              Curso == "27engenhariaquimica" ~ "Engenharia Química",
+                              Curso == "50geofisica" ~ "Geofísica",
+                              Curso == "56engenhariaderecursoshidricosemeioambiente" ~ "Engenharia de R. H. e Meio Ambiente",
+                              Curso == "37engenhariacivil" ~ "Engenharia Civi",
+                              Curso == "28quimica" ~ "Química",
+                              Curso == "42engenhariadeproduçao" ~ "Engenharia de Produção",
+                              Curso == "40engenhariamecanica" ~ "Engenharia Mecânica",
+                              Curso == "38engenhariaeletrica" ~ "Engenharia Elétrica",
+                              Curso == "41engenhariadetelecomunicacoes" ~ "Engenharia de Telecomunicações",
+                              Curso == "25fisica" ~ "Física",
+                              Curso == "43engenhariaagricolaeambiental" ~ "Engenharia Agrícola e Ambiental",
+                              Curso == "31cienciadacomputaçao" ~ "Ciência da Computação")) %>% 
+  arrange(Reprovações) %>% 
+  mutate(Cursos = factor(Cursos, Cursos))
+  
+a <- ggplot(data = QUATROAGREGADO2, mapping = aes(x = Cursos, y = Reprovações))
+a + geom_segment(mapping = aes(x = Cursos, xend = Cursos, y = 0, yend = Reprovações)) +
+  geom_point(colour = "#66c2a5", size = 4) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = )) +
+  geom_text_repel(mapping = aes(label = Reprovações)) +
+  labs(title = "Número de reprovações por curso de graduação.",
+       subtitle = "Consideradas as 4 piores matérias em\nreprovações da UFF entre 17.1 e 18.2.",
+       x = NULL, y = "Número de reprovações",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+
+Como podemos ver, são 15 os cursos de graduação prejudicados pelo altíssimo número de reprovados das "4 piores disciplinas". Isso reflete a centralidade das matérias em consideração para diversos dos principais currículos da área de exatas em Niterói. Dentre eles, se destacam os cursos de Ciência da Computação, com 955 reprovações; de Física, com 936 reprovações; e os cursos de Engenharia, que correspondem por 9 dos 15 cursos atingidos.
+
+
+Destacado o subgrupo das "piores dentre as piores", podemos retornar nossa atenção para os 50 piores resultados como um todo. Neste caso, assim como feito acima, cabe se perguntar: quais são os cursos de graduação mais afetados? E perceberemos que o padrão identificado nas 4 piores disciplinas se aplica para todo o conjunto: diplomas da área de exatas. Dessa vez, porém, as graduações não se restringem ao pólo de Niterói. Aparecem no levantamento cursos de Rio das Ostras, Pádua e Volta Redonda. 
+
+```{r Gráfico 6, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 7, fig.width = 6}
+load(file = "UFF_REPROVAÇÕES.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+CINQPIORES <- UFF_REPROVAÇÕES %>% 
+  filter(Código_Disciplina %in% Tabela2$Código_Disciplina)
+
+CINQAGREGADO <- CINQPIORES %>% 
+  group_by(Curso) %>% 
+  summarise("Reprovações" = sum(Reprovações)) %>% 
+  filter(Reprovações > 10) %>% 
+  arrange(desc(Reprovações))
+
+CINQAGREGADO2 <- CINQAGREGADO %>%  
+  mutate("Cursos" = case_when(Curso == "54estatistica" ~ "Estatística",
+                              Curso == "20matematica" ~ "Matemática",
+                              Curso == "83sistemasdeinformação" ~ "Sistemas de Informação",
+                              Curso == "45engenhariadeproducaoVR" ~ "Engenharia de Produção V.R.",
+                              Curso == "78quimicaVR" ~ "Química V.R.",
+                              Curso == "46engenhariamecanicaVR" ~ "Engenharia Mecânica V.R.",
+                              Curso == "52engenhariadeagronegocios" ~ "Engenharia de Agronegócios V.R.",
+                              Curso == "76fisicaVR" ~ "Física V.R.",
+                              Curso == "77matematicaVR" ~ "Matemática V.R.",
+                              Curso == "39engenhariametalurgicaVR" ~ "Engenharia Metalúrgica V.R.",
+                              Curso == "4cienciaseconomicas" ~ "Ciências Econômicas",
+                              Curso == "53administraçaoVR" ~ "Administração V.R.",
+                              Curso == "75cienciascontabeisVR" ~ "Ciências Contábeis V.R.",
+                              Curso == "15farmacia" ~ "Farmácia",
+                              Curso == "60cienciadacomputaçaoRO" ~ "Ciência da Computação R.O.",
+                              Curso == "63engenhariadeproducaoRO" ~ "Engenharia de Produão R.O.",
+                              Curso == "23administraçao" ~ "Administração",
+                              Curso == "74administraçaopublicaVR" ~ "Administração Pública V.R.",
+                              Curso == "22cienciascontabeis" ~ "Ciências Contábeis",
+                              Curso == "95cienciaambiental" ~ "Ciência Ambiental",
+                              Curso == "35matematicaPADUA" ~ "Matemática Pádua",
+                              Curso == "93cienciasnaturaisPADUA" ~ "Ciências Naturais Pádua",
+                              Curso == "82fisicaPADUA" ~ "Física Pádua",
+                              Curso == "92computaçãoPADUA" ~ "Computação Pádua",
+                              Curso == "54estatistica" ~ "Estatística",
+                              Curso == "29quimicaindustrial" ~ "Química Industrial",
+                              Curso == "51engenhariadepetroleo" ~ "Engenharia de Petróleo",
+                              Curso == "27engenhariaquimica" ~ "Engenharia Química",
+                              Curso == "50geofisica" ~ "Geofísica",
+                              Curso == "56engenhariaderecursoshidricosemeioambiente" ~ "Engenharia de R. H. e Meio Ambiente",
+                              Curso == "37engenhariacivil" ~ "Engenharia Civi",
+                              Curso == "28quimica" ~ "Química",
+                              Curso == "42engenhariadeproduçao" ~ "Engenharia de Produção",
+                              Curso == "40engenhariamecanica" ~ "Engenharia Mecânica",
+                              Curso == "38engenhariaeletrica" ~ "Engenharia Elétrica",
+                              Curso == "41engenhariadetelecomunicacoes" ~ "Engenharia de Telecomunicações",
+                              Curso == "25fisica" ~ "Física",
+                              Curso == "43engenhariaagricolaeambiental" ~ "Engenharia Agrícola e Ambiental",
+                              Curso == "31cienciadacomputaçao" ~ "Ciência da Computação")) %>% 
+  arrange(Reprovações) %>% 
+  mutate(Cursos = factor(Cursos, Cursos))
+
+a <- ggplot(data = CINQAGREGADO2, mapping = aes(x = Cursos, y = Reprovações))
+a + geom_segment(mapping = aes(x = Cursos, xend = Cursos, y = 0, yend = Reprovações)) +
+  geom_point(colour = "#66c2a5", size = 4) +
+  coord_flip() +
+  theme_classic() +
+  geom_text_repel(mapping = aes(label = Reprovações)) +
+  labs(title = "Número de reprovações por curso\nde graduação.",
+       subtitle = "Consideradas as 50 piores matérias em\nreprovações da UFF entre 17.1 e 18.2.",
+       x = NULL, y = "Número de reprovações",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+Como o gráfico acima nos mostra, as 50 piores matérias em reprovação da UFF tem impacto em 38 cursos de graduação e 4 pólos universitários (Niterói, Volta Redonda, Rio das Ostras e Pádua). Em geral, cursos da área de exatas ou de ciências sociais aplicadas que fazem uso intensivo de matemática.
+
+
+Aqui, acreditamos que seja importante nos posicionar sobre uma segunda "armadilha" que os dados podem colocar: a enorme concentração das reprovações na área de exatas reflete um problema que vai muito além da UFF. De certo, a deficiência em matemática é um problema que vem desde o ensino básico e é comprovada pelo desempenho no Brasil em exames como o PISA. Assim sendo, estamos lidando com um problema que é estrutural na educação brasileira. Contudo, é preciso que esse elemento sirva para
+enriquecer a análise e as propostas de intervenção, não para inocentar a instituição de suas responsabilidades. Não podemos considerar estes péssimos desempenhos como algo natural, dado, mas como um desafio sobre o qual devemos urgentemente intervir. Cabe mencionar: não é porque os estudantes chegam ao ensino superior com deficiência em matemática que fatores como a qualidade da aula, a existência de programas de suporte como monitorias, a produção de materiais de apoio e etc não tenham influência no sucesso em uma disciplina. O quanto, exatamente, dessa realidade é passível de mudança e quanto não é apenas poderá ser descoberto através da prática institucional conjugada com um intenso processo de acompanhamento e estudo sobre o assunto.
+
+
+Seguindo a análise, o 1º e 2º cursos mais atingidos continuam sendo Ciência da Computação e Física de Niterói. A eles se soma o curso de Matemática, tendo estes 3 mais de 1000 reprovações pelas 50 piores matérias no biênio 2017.1-2018.2. Assim como na análise das "piores dentre as piores", as engenharias também aparecem com grande peso: correspondem a 14 dos 38 cursos impactados. Destaca-se também a presença dos cursos de Volta Redonda: são 10 dos 38 considerados, ocupando da 5ª a 11ª posição no rankeamento dos cursos mais afetados.
+
+
+Além desta ótica dos cursos afetados, podemos observar as 50 matérias sob uma outra perspectiva. Neste caso nossa questão será: quais são os departamentos responsáveis por essas disciplinas? Mais uma vez, é importante ressaltar que essa identificação não serve ao propósito de procurar "culpados". Pelo contrário: acreditamos que os departamentos listados a seguir são aqueles que, mais urgentemente, demandam apoio por parte da UFF para cumprir com qualidade e eficiência o seu papel institucional.
+
+```{r Gráfico 7, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 4, fig.width = 6}
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+load(file="Tabela2.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+PIORESDEPARTAMENTOS <- UFF_VAGASXREPROVAÇÕES %>% 
+  filter(Código_Disciplina %in% Tabela2$Código_Disciplina)
+
+PIORESDEPARTAMENTOS2 <- PIORESDEPARTAMENTOS %>% group_by(Departamento) %>% 
+  summarise("Reprovações" = sum(Reprovações)) %>% 
+  mutate("Departamentos" = case_when(Departamento == "gma_depmatemáticaaplicada" ~ "GMA - Dep. Matemática Aplicada",
+                                     Departamento == "vce_depciênciasexatas" ~ "VCE - Dep. Ciências Exatas V.R.",
+                                     Departamento == "ggm_depgeometria" ~ "GGM - Dep. Geometria",
+                                     Departamento == "vma_depmatemáticaVR" ~ "VMA - Dep. Matemática V.R.",
+                                     Departamento == "gan_depanálise" ~ "GAN - Dep. Análise",
+                                     Departamento == "tcc_depciênciadacomputação" ~ "TCC - Dep. Ciência da Computação",
+                                     Departamento == "vad_depadministraçãoeadministraçãopúblicaVR" ~ "VAD - Dep. Adm. Pública V.R.",
+                                     Departamento == "rcn_depciênciasdanatureza" ~ "RCN - Dep. Ciências da Natureza R.O.",
+                                     Departamento == "vfi_depfísicaVR" ~ "VFI - Dep. Física V.R.",
+                                     Departamento == "vem_depengenhariamecânicaVR" ~ "VEM - Dep. Engenharia Mecânica V.R.",
+                                     Departamento == "gqo_depquímicaorgânica" ~ "GQO - Dep. Química Orgânica",
+                                     Departamento == "vmd_depmultidisciplinarVR" ~ "VMD - Dep. Multidisciplinar V.R.",
+                                     Departamento == "vqi_depquímicaVR" ~ "VQI - Dep. Química V.R.",
+                                     Departamento == "get_depestatística" ~ "GET - Dep. Estatística",
+                                     Departamento == "peb_depciênciasexatasbiológicasedaterra" ~ "PEB - Dep. C. Exatas, Bio. e da terra Pádua")) %>% 
+  arrange(Reprovações) %>% 
+  mutate(Departamentos = factor(Departamentos, Departamentos))
+
+a <- ggplot(data = PIORESDEPARTAMENTOS2, mapping = aes(x = Departamentos, y = Reprovações))
+a + geom_segment(mapping = aes(x = Departamentos, xend = Departamentos, y = 0, yend = Reprovações)) +
+  geom_point(colour = "#fc8d62", size = 4) +
+  coord_flip() +
+  theme_classic() +
+  geom_text_repel(mapping = aes(label = Reprovações)) +
+  labs(title = "Número de reprovações por\ndepartamento",
+       subtitle = "Consideradas as 50 piores matérias em\nreprovações da UFF entre 17.1 e 18.2.",
+       x = NULL, y = "Número de reprovações",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+```
+
+
+Em primeiro lugar e com uma diferença de mais de 3500 reprovações para o 2º colocado, o Departamento de Matemática Aplicada (GMA, Niterói) foi responsável por 6258 reprovações no biênio 17.1-18.2 (consideradas apenas as 50 piores discipinas em termos de reprovação). Em seguida, temos o Departamento de Ciências Exatas (VCE, Volta Redonda), com 2676 reprovações. Considerando apenas os pólo da UFF do interior do estado, este é o caso mais grave. Em termos de perfil, o panorama é semelhante àquele apresentado sob a ótica dos cursos prejudicados: currículos da área de exatas. Neste caso, porém, o principal resultado fica por conta de um departamento da Matemática. Isso provavelmente tem relação com o fato de departamentos como o "GMA" terem como responsabilidade ofertar disciplinas para vários cursos. Lembremos: das 4 piores disciplinas, 3 eram do dep. de Matemática Aplicada e 1 do dep. de Geometria.
+
+
+A partir do fato de que chegamos ao subgrupo dos departamentos responsáveis pelos 50 piores resultados em termos de reprovações, poderíamos nos questionar: os altos índices de reprovação observados nas 50 piores disciplinas são uma particularidade, ou são coerentes com os índices de reprovação médios de seus respectivos departamentos? Essa informação está disponível no Gráfico 8.
+
+```{r Gráfico 8, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+load(file="Tabela2.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+
+PIORESDEPARTAMENTOS <- UFF_VAGASXREPROVAÇÕES %>% 
+  filter(Código_Disciplina %in% Tabela2$Código_Disciplina)
+
+PIORESDEPARTAMENTOS2 <- PIORESDEPARTAMENTOS %>% group_by(Departamento) %>% 
+  summarise("Reprovações" = sum(Reprovações)) %>% 
+  arrange(Reprovações)
+
+DISTPIORESDEP <- UFF_VAGASXREPROVAÇÕES %>% 
+  filter(Departamento %in% PIORESDEPARTAMENTOS2$Departamento) %>% 
+  mutate("COR" = case_when(Taxa_Reprovação <= 0.5 ~ "NRM",
+                           Taxa_Reprovação > 0.5 ~ "RM"))
+
+a <- ggplot(data = DISTPIORESDEP, mapping = aes(x = Taxa_Reprovação))
+a + geom_histogram(binwidth = 0.1, boundary = 0.1, mapping = aes(fill = COR)) +
+  scale_x_continuous(breaks = seq(from = 0, to = 1, by = 0.1), labels = scales::percent, limits = c(0,1)) +
+  scale_y_continuous(breaks = seq(from = 0, to = 300, by = 50)) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_classic() +
+  stat_bin(binwidth = 0.1, boundary = 0.1, geom = "label_repel", aes(label = ..count..), vjust = 1, hjust = 0.5) +
+  theme(legend.position = "none") +
+  labs(title = "Número de discipinas por intervalo da Taxa de Reprovação.",
+       subtitle = "Considerados os departamentos responsáveis pela 50 piores\nmatérias em reprovações da UFF entre 17.1 e 18.2.",
+       x = "Taxa de Reprovação", y = "Número de Disciplinas",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+
+```
+
+
+Os dados acima nos mostram que os resultados das 50 piores disciplinas tem relações, mas não se devem exclusivamente a sua origem nos departamentos da área de exatas. Como podemos observar, a taxa de reprovação média dentre esses 15 departamentos é, de fato, maior que na UFF como um todo. Enquanto a participação percentual das disciplinas com Taxa de Reprovação maior que 50% oscila entre 4 e 8% do total da UFF, neste caso elas correspondem por, aproximadamente, 25% (338 de 1348). No caso da participação das disciplinas com T.R. entre 0 e 10%, a queda é de uma oscilação entre 26 e 32% na UFF para 8,5% (114 de 1348). Mesmo assim, reprovações de mais da metada da turma ainda são minoria. A maior parte das disciplinas destes departamentos tem reprovações entre 10% e 40% das turmas (52% das matérias fazem paerte desse grupo). Assim sendo, este gráfico nos mostra que, a despeito de matérias semelhantes também terem taxas de reprovação mais altas, ainda há uma boa margem para reducação das reprovações nas 50 piores disciplinas. Ademais, mesmo que o padrão dos cursos de exatas fosse reprovar metade das turmas, ainda assim haveria espaço para intervenção e melhoria dos indicadores. Não há nenhuma evidência que demonstre que a taxa de reprovação média dos departamentos de exatas é imutável e não pode ser melhorada.
+
+
+Por fim, antes de seguir à proposta de intervenção, uma última estatística cabe ser introduzida. Anteriormente, mencionamos que uma das informações disponíveis nos relatórios de vagas do Sistema de Transparência da UFF é o "aproveitamento" (divisão
+das vagas utilizadas por uma disciplina pelo total de vagas disponibilizadas direcionadas a ela). Este indicador pode nos responder: as 50 matérias com piores resultados em reprovações são, em geral, pouco ou muito demandadas? Este dado está disponível no Gráfico 9, abaixo.
+
+```{r Gráfico 9, results="asis", echo=FALSE, warning=FALSE, message=FALSE, fig.height = 5, fig.width = 6}
+load(file="UFF_VAGASXREPROVAÇÕES.RData")
+library(dplyr)
+library(ggrepel)
+library(ggplot2)
+APROV <- UFF_VAGASXREPROVAÇÕES %>% 
+  filter(Código_Disciplina %in% Tabela2$Código_Disciplina) %>% 
+  select(Departamento, Código_Disciplina, Nome_Disciplina, Semestre, Vagas_Ofertadas, Vagas_Utilizadas, Aproveitamento, Reprovações, Taxa_Reprovação) %>% 
+  arrange(desc(Reprovações)) 
+
+a <- ggplot(APROV, mapping = aes(x = Aproveitamento))
+a + geom_histogram(binwidth = 0.1, boundary = 0.1, fill = "#fc8d62") + 
+  scale_x_continuous(breaks = seq(from = 0, to = 1, by = 0.1), labels = scales::percent, limits = c(0,1)) +
+  scale_y_continuous(breaks = seq(from = 0, to = 50, by = 25)) +
+  facet_wrap(. ~ Semestre, ncol = 1) +
+  stat_bin(binwidth = 0.1, boundary = 0.1, geom = "label_repel", aes(label = ..count..), vjust = 1, hjust = 0.5) +
+  theme_classic() +
+  theme(legend.position = "none") +
+    theme_classic() +
+    labs(title = "Número de discipinas por intervalo do Aproveitamento.",
+       subtitle = "Consideradas as 50 piores matérias em\nreprovações da UFF entre 17.1 e 18.2.",
+       x = "Aproveitamento", y = "Número de Disciplinas",
+       caption = "Sistema de Transparência da UFF. Elaboração Luan G. Cândido.")
+
+```
+
+Como podemos ver, a grande maioria das 50 piores disciplinas se concentra na faixa entre 70 e 90% do aproveitamento. Isso reflete o fato de serem matérias centrais para seus respectivos currículos.
+
+## Como intervir sobre as reprovações em massa na UFF?
+
+Assim como este documento como um todo, a proposta de intervenção sobre as reprovações em massa foi pensada para a UFF, enquanto Instituição. Acreditamos que pelos argumentos já mencionados, este é um assunto de interesse geral e, portanto, seu encaminhamento é de responsabilidade da Universidade como um todo: comunidade acadêmica e administração. De certo, a administração, enquanto instância eleita para lidar exatamente com circunstâncias desse tipo deveria ser a mais imediatamente interessada. Entretanto, pelo histórico dos últimos anos e por serem os estudantes os mais prejudicados imediatamente pelo problema das reprovações, acreditamos que, sem dúvidas, o movimento estudantil da UFF terá um papel central na execução deste plano. Inclusive, cabe mencionar: com pouquíssimas adaptações, a primeira parte do planejamento pode ser executado pelo DCE em parceria com os Centros Acadêmicos, sem dependência de ninguém. Poderia, inclusive, com alguns recuos ser executada apenas por Centros Acadêmicos em articulação. De todo modo, a atuação conjunta dos diferentes setores da UFF certamente amplificaria os impactos das iniciativas propostas. E com exceção do receio que necessariamente gerará nos professores das disciplinas em discussão, não nos parece que tenha desdobramentos negativos para ninguém: custa pouco em termos financeiros; traz perspectiva de ampliação da renda futura da UFF; busca qualificar a gestão da Universidade em um momento de corte de recursos; e efetivamente promove uma melhoria nas condições de permanência e sucesso dos estudantes em suas graduações.
+
+A proposta de intervenção é dividida em dois momentos, que se sucedem em termos cronológicos: em primeiro lugar, precisamos realizar um intenso processo de investigação das causas dos altíssimos índices de reprovação das 50 piores disciplinas e de identificação de boas práticas e soluções, que já tenham ou possam vir a garantir índices menores de reprovação; em seguida, as medidas para combater as reprovações selecionadas na etapa anterior precisam ser executadas pela UFF, conjugadas com um intenso processo de acompanhamento das estatísticas de reprovação das disciplinas e departamentos alvos da intervenção. Como as reprovações acontecem ou não semestralmente, o acompanhamento das estatísticas e a atualização do planejamento também podem o ser. Assim sendo, a partir do primeiro semestre de intervenção, as duas etapas podem ser adaptadas e executadas novamente, no sentido de um processo contínuo de identificação e ampliação das práticas que obtiverem os melhores resultados. A seguir, esboçamos um plano cronológico de como essas duas etapas podem ocorrer:
+
+1 Investigação das causas e identificação de soluções.
+
+1.1 No âmbito do CEPEX (ou do CUV), criar um Grupo de Trabalho, composto por representações da PROGRAD, DCE e ADUFF. A este Grupo podem se somar representações dos Centros Acadêmicos e das Coordenações dos cursos interessados. O objetivo central desse Grupo será a execução do processo de investigação das causas e identificação de soluções para as 50 matérias com piores resultados em termos de reprovação, identificadas neste trabalho.
+
+1.2 O processo de investigação das causas e identificação de soluções consistirá em três etapas: elaboração de três questionários, direcionados a alunos, professores e coordenadores de curso relacionados as 50 matérias que mais reprovam na UFF; execução desse questionário presencialmente nos cursos afetados e tratamento dos dados obtidos; realização do I Encontro UFF contra as Reprovações em Massa, no qual os resultados dos questionários serão expostos e debatidos.
+
+1.2.1 O I Encontro UFF contra as Reprovações em Massa terá como finalidade central a elaboração de um documento, no qual constarão os principais resultados dos questionários, o acumulo da discussão do Encontro e, principalmente, as propostas de encaminhamento da UFF sobre o assunto. De todo modo, acreditamos também que o simples fato de colocar a questão em destaque para toda comunidade acadêmica tem desdobramentos positivos contra as reprovações. É preciso que, cada vez mais, a
+universidade perceba consensualmente que este é um problema, que boas taxas de aprovação são uma meta a ser perseguida por todos, não apenas os estudantes.
+
+1.3 Esta Carta de encaminhamentos deverá ser levada ao Conselho Universitário (CUV), onde deverá ser aprovada.
+
+1.4 Como dito, caso não haja respaldo da Instituição, essa etapa pode ser integralmente reproduzida pelo DCE em parceria com os CAs. Estruturalmente, não existe nenhum empecilho para isso. Com pequenas adaptações, pode ser realizada por CAs em conjunto ou por um CA em específico. O relatório sobre reprovações aqui exposto, por exemplo, poderia ser produzido para apenas um curso, de forma que também poderiam ser identificados casos graves e etc. Essa, inclusive, é uma possibilidade de seguimento da política após (ou concomitante) ao tratamento dos 50 piores resultados.
+
+1.5 Independente de ser realizado pelo movimento estudantil exclusivamente ou não, a mobilização estudantil será central nesse processo para fazer com que ele aconteça e vá até o fim. Nesse sentido, sugerimos a criação de uma campanha estudantil "Reprovação em massa eu digo NÃO" (o nome é secundário) como estrutura organizativa para articular a participação discente neste processo.
+
+1.5.1 Compreendemos que, no momento atual, existem muita insegurança por parte do estudante e base em se aproximar das estruturas tradicionais do movimento estudantil. Nesse sentido, se organizar em torno de uma pauta, em torno de uma ação que é feita e eventualmente se finda, nos parece uma alternativa mais atrativa ao estudante comum. Além disso, não centralizar as ações no DCE exclusivamente nos parece positivo para garantir uma participação ampla, em termos de composição política, e principalmente, com espaço para participação dos CAs. De todo modo, o DCE terá papel central na direção deste processo. Nada impede (pelo contrário) que essa forma organizativa seja conjugada com, por exemplo, reuniões temáticas do DCE para a pauta, reuniões de direção e etc.
+
+1.5.2 A "campanha", no entanto, não precisa ser necessariamente uma estrutura organizativa. Uma boa campanha de comunicação, com colagens, atuação nas redes sociais, faixas e afins também é interessante. Pode ser realizado em conjunto com uma "campanha" em termos organizativos, ou simplesmente por um determinado conjunto de sujeitos que assim o queira.
+
+1.5.2 Na perspectiva da mobilização estudantil, o processo pode se iniciar, por exemplo, com um processo de articulação que culmine em um Conselho de CAs com a pauta exclusiva de "reprovações em massa". Neste conselho a "campanha" pode ser aprovada, junto com outras diversas iniciativas que podem ser pensadas, como colagens de lambe, rodas de conversa e etc.
+
+1.5.3 Acreditamos que, em especial, a etapa de execução dos questionários seja uma oportunidade para o DCE estabelecer contato diretamente com o estudante e, portanto, se aproximar dos mesmos. Este momento pode ser feito com barraquinhas nos cursos durante dias inteiros, intercaladas com panfletagens e falas públicas. Poderia haver, por exemplo, uma barraca itinerante no DCE que rodasse os cursos afetados pelas piores
+disciplinas aplicando os questionários e dialogando com os estudantes. Nos parece também será enxergado com bons olhos a disposição do Diretório Central em executar uma iniciativa que tem impactos tão diretos na vida do estudante com suas próprias mãos.
+
+Resumindo, são três etapas que podem ser feitas pela UFF como um todo ou apenas pelos estudantes: questionários para investigação das causas e levantamento de soluções; realização do Encontro contra as Reprovações em Massa e produção das propostas de encaminhamento; aprovação desse planejamento através do CUV. Os encaminhamentos também poderiam ser executados diretamente pela PROGRAD, mas a alternativa de aprovação pelo CUV nos parece mais plausível.
+
+Em termos de datas, esse planejamento é pensado para um horizonte de um semestre, podendo perfeitamente ser executado neste intervalo. Uma possibilidade de distribuição destas etapas no tempo poderia ser:
+
+. Mês 1/2: Articulações na comunidade acadêmica, aprovação do GT Reprovações em Massa e/ou aprovação da campanha contra as reprovações em massa no Conselho de CAs.
+. Mês 3/4: Execução das primeiras reuniões. Elaboração dos questionários pelo GT e atividades de divulgação do assunto pela Campanha.
+. Mês 5: Realização dos questionários nos cursos, abarcando estudantes, professores e coordenadores de curso. Mais atividades de mobilização pela campanha. Começo do planejamento do Encontro, fazendo levantamento de estrutura, captação financeira e etc.
+. Mês 6: Realização do Encontro e aprovação dos encaminhamentos no CUV.
+
+2 - Execução das soluções levantadas e acompanhamento dos resultados das reprovações.
+
+Não detalharemos esse segundo momento da intervenção pois ele depende integralmente do primeiro. Em última instância, o central da nossa proposta é o que chamamos de "primeira etapa".
+
+Para sinalizar algumas das propostas que poderão ser encaminhadas para solucionar as reprovações em massa, podemos mencionar:
+
+1 Realocação das vagas de monitoria. Atualmente, como consta no Relatório de Gestão da UFF, existe uma incoerência completa entre os principais favorecidos pelo programa de monitoria e os principais prejudicados pelas reprovações. Em 2017, o curso que mais recebeu monitores foi Medicina: 95. Em segundo lugar, Medicina Veterinária, com 65. Em terceiro, Enfermagem, com 54. O primeiro curso da área de exatas a ser mencionado fica na 8a posição: Engenharia Mecânica, com 28 monitores. Física, Química e Ciência da Computação, por exemplo, tem menos de 10 monitores cada.
+
+2 Realocação das bolsas de assistência estudantil. Atualmente temos uma política de bolsas que aloca parcela relevante das suas verbas para políticas como "Bolsas Altos Estudos" que pouco contribuem para garantia das condições de permanência na UFF. Assim como as reprovações afetam a evasão, as condições de permanência afetam a capacidade de ter sucesso em uma disciplina. Assim, quanto melhor as políticas para permanência, melhor devem ser os resultados nas discipinas.
+
+3 Realocação dos professores de matérias pouco demandadas para matérias centrais. Ao longo deste trabalho vimos que as 50 piores disciplinas são, em geral, disciplinas centrais em seus currículos, muito demandadas pelos estudantes. O que não mencionamos, que pode ser observado a partir do relatório de vagas de cada departamento, é a enorme quantidade de matérias que tem apenas 10, 20% de suas vagas ofertadas efetivamente ocupadas. Isso indica que, em geral, existe um problema de professores que estão oferecendo disciplinas pouco desejadas, enquanto outras disciplinas tem excesso de demanda. É de se esperar que com mais turmas de Cálculo I-A, por exemplo, possamos ter turmas menores, o que comprovadamente contribui para o sucesso dos estudantes nas disciplinas.
+
+4 Realização de iniciativas no sentido de capacitar os professores para dar melhores aulas. É sabido que, especialmente na área de exatas, muitos professores consideram secundário a atividade docente. Nesse sentido, consideram secundário se estão tendo sucesso nas suas disciplinas, se estão ensinando a matéria corretamente, se o número de reprovados é alto. Certamente isso será identificado a partir dos questionários. Deverão ser pensadas formas concretas de realizar isso.
+
+5 Realização de cursos de verão e matérias de preparação para disciplinas com altos índices de reprovação. Os cursos de verão são uma forma interessante de permitir que o estudante reprovado em uma disciplina não tenha sua trajetória acadêmica atrasada, sendo já realizado em alguma medida por diversos departamentos. Não há, contudo, uma política da UFF para o assunto.
+
+Enfim, os encaminhamentos possíveis são inúmeros. Mas não se trata de pensar quais soluções seriam interessantes, mas de, a partir dos questionários, buscar identificar principalmente aquelas iniciativas que já deram certo. Aqueles casos em que professores conseguiram obter sucesso mesmo em disciplinas com altas taxas de reprovação. Existem casos assim, eles precisam apenas ser identificados, catalogados e devidamente estudados.
